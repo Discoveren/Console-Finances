@@ -8,10 +8,10 @@ for (var main_index = 0; main_index < finances.length; main_index++ ) {
     // total variable for the sum of all the profit.
     var total = finalSum += (finances[main_index][1])
     var average = total / finances.length - 1
-  
+  console.log(finances[main_index][1])
 
     
 }
 console.log('Total months: ' + main_index)
-console.log('Total: ' + '$' + (total - 1))
-console.log('Average:' + '$' + Math.round(average))
+console.log('Total: ' + '$' + total)
+console.log('Average: ' + '$' + (Math.round(average)))
