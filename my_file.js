@@ -14,4 +14,4 @@ for (var main_index = 0; main_index < finances.length; main_index++ ) {
 }
 console.log('Total months: ' + main_index)
 console.log('Total: ' + '$' + (total - 1))
-console.log('Average:' + 'S' + Math.round(average))
+console.log('Average:' + '$' + Math.round(average))
