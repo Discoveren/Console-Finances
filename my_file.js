@@ -1,0 +1,5 @@
+for (var main_index = 0; main_index < finances.length; main_index++ ) {
+    for(var nested_index = 0; nested_index < finances[main_index].length; nested_index++) {
+      console.log(finances[main_index][nested_index]);
+    }
+  }
